@@ -31,14 +31,14 @@ jobs:
 
       - name: Deploy to GitHub Pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TARGET_REPO: rob18n/app
           TARGET_BRANCH: gh-pages
         run: |
           cd build
           git init
-          git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${TARGET_REPO}.git
+          git remote add origin https://x-access-token:${GH_TOKEN}@github.com/${TARGET_REPO}.git
           git add .
           git commit -m "Deploy Docusaurus site"
-          git branch -M main
+          git branch -M main  # Den Branch zu 'main' umbenennen
           git push --force origin main:${TARGET_BRANCH}
