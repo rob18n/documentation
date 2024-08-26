@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # oder Ihr Hauptbranch im Docu-Repo
+      - main
 
 jobs:
   build:
@@ -40,4 +40,5 @@ jobs:
           git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${TARGET_REPO}.git
           git add .
           git commit -m "Deploy Docusaurus site"
+          git branch -M main
           git push --force origin main:${TARGET_BRANCH}
