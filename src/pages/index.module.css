@@ -20,4 +20,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+}
+
+
+/* src/css/custom.css */
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  /* Optional: Innenabstand der Buttons */
+  background-color: #007bff;
+  /* Optional: Hintergrundfarbe der Buttons */
+  color: white;
+  /* Optional: Textfarbe */
+  border: none;
+  border-radius: 0.25rem;
+  /* Optional: Abgerundete Ecken */
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  /* Optional: Hover-Effekt */
 }

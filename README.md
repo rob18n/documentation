@@ -1,41 +1,9 @@
-# Website
+# rob18n documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+based on docusaurus - check the app repo for more information
 
-### Installation
+# Image history
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[Api icons created by DinosoftLabs - Flaticon](https://www.flaticon.com/free-icons/api)
+[Tower pc icons created by DinosoftLabs - Flaticon](https://www.flaticon.com/free-icons/tower-pc)
+[Code icons created by DinosoftLabs - Flaticon](https://www.flaticon.com/free-icons/code)
