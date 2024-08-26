@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/rob18n.png',
 
   // Set the production url of your site here
-  url: 'https://rob18n.github.io',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
