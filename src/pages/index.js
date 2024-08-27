@@ -15,7 +15,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--secondary', styles.heroBanner)}>
       <div className="container">
         <div className="row">
-          <div className="col col--8">
+          <div className="col col--12">
             <Heading as="h1" className="hero__title">
               {siteConfig.title}
             </Heading>
@@ -32,9 +32,6 @@ function HomepageHeader() {
                 View on Github
               </Link>
             </div>
-          </div>
-          <div className="col col--2">
-            <img src="/img/welcome.webp"></img>
           </div>
         </div>
       </div>

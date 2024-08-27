@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 
 export default function SponsorList() {
   return (
-    <section>
+    <section className={styles.section}>
       <div className="container">
         <div className={styles.cta}>
           <Heading as="h2">Sponsoring</Heading>
