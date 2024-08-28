@@ -30,6 +30,7 @@ const sidebars = {
           link: { type: 'doc', id: 'guide/usage/export/index' },
           items: [
             'guide/usage/export/javascript',
+            'guide/usage/export/php_laravel',
           ],
         },
       ],
