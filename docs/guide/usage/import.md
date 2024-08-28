@@ -9,5 +9,6 @@ During the import, any existing variables will be overwritten if they are presen
 
 ## Supported formats:
 - `.json`
+- `.php (Laravel)`
 
 Additional formats can be added upon request. If you need a specific format, feel free to submit a feature request.
